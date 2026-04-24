@@ -1,29 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title> Index</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Starbuzz</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="topo">
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <img class="brand__logo" src="imagens/logo.png" alt="Logo Café Starbuzz">
+        <div>
+          <h1 class="brand__title">Café Starbuzz <sup>&reg;</sup></h1>
+          <p class="brand__subtitle">Sabor, tradição e boas pausas</p>
+        </div>
+      </div>
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="producao.html">Produção</a></li>
+          <li><a href="capuccino.html">Receitas</a></li>
+          <li><a href="cadastreSe.html">Cadastre-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<table>
-    <tr>
-        <th>
-    <a href="about.html"> Sobre</a>
-        </th>
-        <th>
-    <a href="recipes/salmon.html">Salmão</a>
-        </th>
-        <th>
-    <a href="recipes/pasta/couscous.html"> Couscous</a>
-        </th>
-        <th>
-        <a href="recipes/pasta/linguine.html"> Couscous</a>
-    </th>
+  <main>
+    <section class="hero">
+      <div class="container hero__panel">
+        <div>
+          <span class="badge">Cardápio especial</span>
+          <h2 class="section-title" style="margin-top:12px;">Escolha sua bebida favorita</h2>
+          <p>Uma vitrine simples, limpa e uniforme para apresentar cafés, chás e receitas especiais do Café Starbuzz.</p>
+        </div>
+        <img class="hero__image" src="imagens/cappuccino.jpg" alt="Cappuccino servido em xícara">
+      </div>
+    </section>
 
-    </tr>
-</table>
+    <section class="section">
+      <div class="container cards">
+        <article class="card product">
+          <img class="product__image" src="imagens/cafe.jpg" alt="Mistura da casa">
+          <div>
+            <h3 class="product__title">Mistura da Casa <span class="product__price">- R$ 1,49</span></h3>
+            <p>Uma mistura suave e delicada de cafés do México, Brasil e Bolívia.</p>
+            <strong>Principais ingredientes:</strong>
+            <ul class="product__list">
+              <li>Café conilon</li>
+              <li>Açúcar</li>
+            </ul>
+          </div>
+        </article>
 
+        <article class="card product">
+          <img class="product__image" src="imagens/cafecomleite.jpg" alt="Café arábica com leite">
+          <div>
+            <h3 class="product__title">Café arábica com leite <span class="product__price">- R$ 2,89</span></h3>
+            <p>Expresso, leite fervido e xarope de chocolate.</p>
+            <strong>Principais ingredientes:</strong>
+            <ul class="product__list">
+              <li>Café arábica</li>
+              <li>Chocolate</li>
+              <li>Leite integral ou desnatado</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card product">
+          <img class="product__image" src="imagens/cappuccino.jpg" alt="Cappuccino">
+          <div>
+            <h3 class="product__title">Cappuccino <span class="product__price">- € 3,17</span></h3>
+            <p>Uma mistura de expresso, leite fervido e espuma.</p>
+            <p><a href="capuccino.html">Veja mais informações</a></p>
+          </div>
+        </article>
+
+        <article class="card product">
+          <img class="product__image" src="imagens/cha.jpg" alt="Chá">
+          <div>
+            <h3 class="product__title">Chá <span class="product__price">- € 1,45</span></h3>
+            <p>Uma bebida condimentada com chá preto e especiarias.</p>
+            <p>Preço antigo: <s>€ 1,85</s></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-card">
+      <div>
+        <p class="note">© 2023 Café Starbuzz</p>
+        <p class="note"><a href="#topo">Voltar ao topo</a></p>
+      </div>
+      <a class="footer-social" target="_blank" rel="noopener" href="https://twitter.com/IFRSOficial">
+        <img src="imagens/Twitter_logo_2012.png" alt="Twitter">
+        <span>Fale conosco</span>
+      </a>
+    </div>
+  </footer>
 </body>
 </html>

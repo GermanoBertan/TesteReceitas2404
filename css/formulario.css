@@ -1,0 +1,33 @@
+*{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#formulario{
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    background-image: linear-gradient(to right, palegreen, paleturquoise);
+    padding: 10px;
+}
+
+#btEnviar{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 0px solid green;
+}
+
+#btLimpar{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border: 0px solid grey;
+}
+
+label{
+    padding: 10px;
+}
+fieldset{
+    width: 300px;
+}

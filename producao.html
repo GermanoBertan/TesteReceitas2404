@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produção</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <img class="brand__logo" src="imagens/logo.png" alt="Logo Café Starbuzz">
+        <div>
+          <h1 class="brand__title">Café Starbuzz <sup>&reg;</sup></h1>
+          <p class="brand__subtitle">Dados de produção no Brasil</p>
+        </div>
+      </div>
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="producao.html">Produção</a></li>
+          <li><a href="capuccino.html">Receitas</a></li>
+          <li><a href="cadastreSe.html">Cadastre-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="hero__panel" style="margin-bottom:24px;">
+        <div>
+          <span class="badge">Tabela comparativa</span>
+          <h2 class="section-title" style="margin-top:12px;">Produção de café no Brasil em toneladas</h2>
+          <p>Layout padronizado para manter a identidade visual do site também nas páginas de conteúdo e consulta.</p>
+        </div>
+        <img class="hero__image" src="imagens/regiaosudeste.jpg" alt="Região Sudeste">
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <caption>Produção por região e estado</caption>
+          <thead>
+            <tr>
+              <th colspan="2"></th>
+              <th colspan="2">Safra</th>
+              <th rowspan="2">Localização geográfica</th>
+            </tr>
+            <tr>
+              <th>Região</th>
+              <th>Estado</th>
+              <th>2016</th>
+              <th>2017</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="3">Sul</th>
+              <td>RS</td>
+              <td>50000</td>
+              <td>8000</td>
+              <td rowspan="3"><img src="imagens/regiaosul.jpg" alt="Mapa da região Sul"></td>
+            </tr>
+            <tr>
+              <td>PR</td>
+              <td>25000</td>
+              <td>25878</td>
+            </tr>
+            <tr>
+              <td>SC</td>
+              <td>15878</td>
+              <td>14858</td>
+            </tr>
+            <tr>
+              <th rowspan="3">Sudeste</th>
+              <td>SP</td>
+              <td>120000</td>
+              <td>140000</td>
+              <td rowspan="3"><img src="imagens/regiaosudeste.jpg" alt="Mapa da região Sudeste"></td>
+            </tr>
+            <tr>
+              <td>MG</td>
+              <td>258000</td>
+              <td>354000</td>
+            </tr>
+            <tr>
+              <td>ES</td>
+              <td>58787</td>
+              <td>65895</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Centro-Oeste</th>
+              <td>MT</td>
+              <td>0</td>
+              <td>9874</td>
+              <td rowspan="2"><img src="imagens/regiaocentrooeste.jpg" alt="Mapa da região Centro-Oeste"></td>
+            </tr>
+            <tr>
+              <td>MS</td>
+              <td>878</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th colspan="2">Total</th>
+              <td>528543</td>
+              <td>618507</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
