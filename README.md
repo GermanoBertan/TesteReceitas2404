@@ -1,2 +1,2 @@
-# TesteReceitas2404
-Este é um site de teste do GitHub
+# Café Starbuzz
+Este é um site de teste do GitHub para o site Café Starbuzz.
